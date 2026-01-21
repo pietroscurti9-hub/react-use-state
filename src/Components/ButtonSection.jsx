@@ -1,5 +1,4 @@
-import languages from "../assets/languages.js"
-
+// import languages from "../assets/languages.js"
 
 export default function ButtonSection() {
     return (
