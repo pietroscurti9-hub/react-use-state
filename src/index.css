@@ -3,3 +3,10 @@
   margin: 0%;
   box-sizing: border-box;
 }
+
+/* BUTTON SECTION */
+.button-c {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
