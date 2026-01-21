@@ -2,9 +2,10 @@
 import "./index.css"
 import './App.css'
 import Header from "./Components/Header.jsx"
-import ButtonSection from "./Components/ButtonSection.jsx"
+// import ButtonSection from "./Components/ButtonSection.jsx"
 import languages from "./assets/languages.js"
 import { useState } from "react"
+import Text from "./Components/Text.jsx"
 
 function App() {
   const [activeLang, setActiveLang] = useState(languages[0])
@@ -21,10 +22,9 @@ function App() {
        ))}
      </div>
 
-     <div>
-      <h2>{activeLang.title}</h2>
-      <p>{activeLang.description}</p>
-     </div>
+     <Text titolo={activeLang.title} testo={activeLang.description}/>
+
+     
     </>
   )
 }
